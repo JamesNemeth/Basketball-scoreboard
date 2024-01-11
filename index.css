@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Cursed Timer;
+    src: url(fonts/CursedTimer.ttf);
+}
+body {
+    width: 800px;
+    background-image: url("images/basketball.jpg");
+    background-size: cover;
+    transform: rotate();
+    opacity: 1;
+    margin: auto;
+    text-align: center;
+    background-color: #111827;
+    font-family: 'Cursed Timer','Times New Roman', Times, serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    color: #EEEEEE;
+    font-family: inherit;
+    border: 1px solid #EEEEEE;
+    background-color: #111827;
+    padding: 5;
+}
+button:hover{
+    background-color: black;
+}
+h3{
+    color: #EEEEEE;
+    font-size: 40;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: rgb(252, 55, 55);
+    background-color: black;
+    border-radius: 5px;
+    font-size: 60;
+    margin: -25 0 20 0;
+    padding-top: 10;
+}
+#clear-btn{
+    margin: 25 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10 15 8 15;
+}
+
